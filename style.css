@@ -5,8 +5,15 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.header-a {
     font-size: 18px;
     color: #dcdee3;
+}
+
+button > a {
+    color: white;
 }
 
 ul {
@@ -44,13 +51,20 @@ span {
 .header {
     background-color: #1f2937;
     display: flex;
-    padding: 5px 300px;
+    padding: 5px 200px;
     justify-content: space-between;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 30px 200px;
+    text-align: center;
+    color: white;
 }
 
 .hero-container {
     display: flex;
-    padding: 60px 300px;
+    padding: 60px 200px;
     background-color: #1f2937;
     justify-content: space-between;
 }
@@ -75,7 +89,7 @@ span {
 }
 
 .information {
-    padding: 20px 300px;
+    padding: 20px 200px;
 }
 
 .information-header {
@@ -105,13 +119,14 @@ span {
     background-color: #e5e7eb;
     padding-top: 80px;
     padding-bottom: 40px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
    
 }
 
 cite {
     font-size: 36px;
+    font-weight: normal;
     color: #1f2937;
     margin: 0;
     padding: 0;
@@ -122,11 +137,37 @@ cite {
     margin: 0;
     margin-bottom: 40px;
     padding: 0;
+    font-weight: bold;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 30px 100px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.signup-text > p {
+    color: white;
+}
+
+.signup-text > .signup-header {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.signup-text > p {
+    padding: 0;
+    margin: 0;
 }
 
 button {
     background-color: #3882f6;
-    border-radius: 4px;
+    border-radius: 8px;
     border: 0;
     color: white;
     padding: 8px 32px;
@@ -135,6 +176,12 @@ button {
 
 .hero > button {
     align-self: flex-start;  
+}
+
+.signup-section > button {
+    border: 1px white solid;
+    flex: 0 0 auto;
+    align-self: center;
 }
 
 img.dubai {
